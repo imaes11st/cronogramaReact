@@ -30,7 +30,6 @@ function App(){
       <div clasName="col-8">
         <h4 className="text-center">Lista de tareas</h4>
         <ul className="list-group">
-
           {
             tasks.map((task) => (
               <li className="list-group-item" key={task.id}>
